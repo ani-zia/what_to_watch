@@ -16,7 +16,7 @@ Content-Type: application/json
 
 ### Получить мнение
 
-GET http://127.0.0.1:5000/api/opinions/13/
+GET http://127.0.0.1:5000/api/opinions/57/
 Content-Type: application/json
 
 ### Получить random мнение
