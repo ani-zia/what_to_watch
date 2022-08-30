@@ -1,0 +1,41 @@
+### Получить all opinions
+
+GET http://127.0.0.1:5000/api/opinions/
+Content-Type: application/json
+
+### Create opinion
+
+POST http://127.0.0.1:5000/api/opinions/
+Content-Type: application/json
+
+{
+    "title": "Джой2",
+    "text": "NERФильм обязателен к просмотру в ситуациях, когда кажется, что выхода нет, и всё летит в тартарары. Главная героиня придумала самоотжимающуюся швабру (невесть какое изобретение, казалось бы) и двигала свою идею всеми мыслимыми и немыслимыми путями. Да и актёрский состав интересен. Где ещё увидишь вместе Дженифер Лоуренс, Роберта де Ниро и Брэдли Купера."
+} 
+
+
+### Получить мнение
+
+GET http://127.0.0.1:5000/api/opinions/13/
+Content-Type: application/json
+
+### Получить random мнение
+
+GET http://127.0.0.1:5000/api/get-random-opinion/
+Content-Type: application/json
+
+
+### Поменять мнение
+
+PATCH  http://127.0.0.1:5000/api/opinions/1/
+Content-Type: application/json
+
+{
+    "title": "Джой"
+}
+
+
+### Delete obj
+
+DELETE http://127.0.0.1:5000/api/opinions/13/
+Content-Type: application/json
